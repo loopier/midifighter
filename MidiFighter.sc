@@ -16,7 +16,7 @@ MidiFighter {
 	}
 
 	init {
-		this.ctls = ();
+		this.ctls = ().know_(true);
 		this.bank = 0;
 		this.row = 0;
 		this.col = 0;
